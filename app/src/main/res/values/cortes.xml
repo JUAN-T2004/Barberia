@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nombres_cortes">
+        <item>Corte de cabello 1</item>
+        <item>Corte de cabello 2</item>
+        <item>Corte de cabello 3</item>
+        <!-- Agrega más cortes según sea necesario -->
+    </string-array>
+
+    <integer-array name="imagenes_cortes">
+        <item>@drawable/corte1</item>
+        <item>@drawable/corte2</item>
+        <item>@drawable/corte3</item>
+        <!-- Agrega más imágenes según sea necesario -->
+    </integer-array>
+
+    <string-array name="precios_cortes">
+        <item>$10000</item>
+        <item>$15000</item>
+        <item>$20000</item>
+        <!-- Agrega más precios según sea necesario -->
+    </string-array>
+</resources>
+

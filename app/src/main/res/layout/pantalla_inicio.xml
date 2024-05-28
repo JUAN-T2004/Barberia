@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul_claro"
+    android:id="@+id/pantalla_inicio_layout">
+
+    <ImageView
+        android:id="@+id/imageView_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/barberia_logo"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/textoBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@drawable/barberia_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="Bienvenidos a Barber Shop"
+        android:textColor="@color/azul_real"
+        android:textStyle="italic|bold"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:id="@+id/opciones_inicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="85dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <!-- Botón para ir a la pantalla de registro -->
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Registrarse"
+            android:textColor="@color/white"
+            android:textStyle="italic|bold"
+            android:background="@drawable/button_background"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="18sp" />
+
+        <!-- Botón para ir a la pantalla de inicio de sesión -->
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:text="Iniciar sesión"
+            android:textColor="@color/white"
+            android:textStyle="italic|bold"
+            android:background="@drawable/button_background"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>

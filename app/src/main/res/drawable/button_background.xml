@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Fondo redondeado con un color sólido -->
+    <corners android:radius="20dp" />
+    <solid android:color="@color/azul_real" /> <!-- Ajusta el color aquí -->
+
+</shape>

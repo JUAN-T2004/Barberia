@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pantalla_servicios_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/azul_claro">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:text="Selecciona un Corte:"
+            android:textStyle="italic|bold"
+            android:textSize="40sp"
+            android:textColor="@color/black"/>
+
+        <!-- Primer corte -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_border"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imageViewCorte1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/corte1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="30dp">
+
+                <TextView
+                    android:id="@+id/textViewNombreCorte1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Degradado"
+                    android:textStyle="italic|bold"
+                    android:textSize="17sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textViewPrecioCorte1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="$ 15.000"
+                    android:textStyle="italic|bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <RadioButton
+                android:id="@+id/chequeoCorte1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="55dp"
+                android:layout_margin="40dp">
+            </RadioButton>
+
+        </LinearLayout>
+
+        <!-- Segundo corte -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/edittext_border"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imageViewCorte2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/corte2" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="30dp">
+
+                <TextView
+                    android:id="@+id/textViewNombreCorte2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aleman"
+                    android:textStyle="italic|bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textViewPrecioCorte2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="$ 13.000"
+                    android:textStyle="italic|bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <RadioButton
+                android:id="@+id/chequeoCorte2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="55dp"
+                android:layout_margin="40dp">
+            </RadioButton>
+
+        </LinearLayout>
+
+        <!-- Tercer corte -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/edittext_border"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imageViewCorte3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/corte3" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="30dp">
+
+                <TextView
+                    android:id="@+id/textViewNombreCorte3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Frances"
+                    android:textStyle="italic|bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textViewPrecioCorte3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="$ 18.000"
+                    android:textStyle="italic|bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <RadioButton
+                android:id="@+id/chequeoCorte3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="55dp"
+                android:layout_margin="40dp">
+            </RadioButton>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/edittext_border"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imageViewCorte4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/corte4" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="30dp">
+
+                <TextView
+                    android:id="@+id/textViewNombreCorte4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="El 7"
+                    android:textStyle="italic|bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textViewPrecioCorte4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="$ 10.000"
+                    android:textStyle="italic|bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <RadioButton
+                android:id="@+id/chequeoCorte4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="55dp"
+                android:layout_margin="40dp">
+            </RadioButton>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/edittext_border"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imageViewCorte5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/corte5" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="30dp">
+
+                <TextView
+                    android:id="@+id/textViewNombreCorte5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Degradado punta"
+                    android:textStyle="italic|bold"
+                    android:textSize="17sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textViewPrecioCorte5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="$ 16.000"
+                    android:textStyle="italic|bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <RadioButton
+                android:id="@+id/chequeoCorte5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="55dp"
+                android:layout_margin="40dp">
+            </RadioButton>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="Selecciona la fecha y hora de tu cita para el corte:"
+            android:textStyle="italic|bold"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/editTextFechaHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Seleccionar"
+            android:textSize="15sp"
+            android:background="@drawable/edittext_border"
+            android:focusable="false" />
+
+        <!-- Botones -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:id="@+id/buttonCerrarSesion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textStyle="italic|bold"
+                android:background="@drawable/button_background"
+                android:text="Cerrar Sesion"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="15dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/buttonConfirmarServicio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textStyle="italic|bold"
+                android:background="@drawable/button_background"
+                android:text="Confirmar"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="15dp"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+

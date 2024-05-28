@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/azul_claro">
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu cita ha sido confirmada"
+        android:textStyle="italic|bold"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center" />
+
+    <!-- Texto para mostrar la fecha y hora seleccionadas -->
+    <TextView
+        android:id="@+id/textViewFechaHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/azul_oscuro"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Fecha y Hora Seleccionadas: "
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/editTextFechahoraCorte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:padding="15dp"
+        android:inputType="none"
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:cursorVisible="false"
+        android:hint="Fecha y hora del Corte"/>
+
+    <!-- Datos del corte seleccionado -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="362dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical">
+
+        <!-- Imagen del corte -->
+        <ImageView
+            android:id="@+id/imageViewCorteConfirmacion"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/corte1" />
+
+        <!-- Nombre del corte -->
+        <TextView
+            android:id="@+id/textViewNombreCorteConfirmacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Nombre del Corte:"
+            android:textColor="@color/azul_oscuro"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextNombreCorte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/edittext_border"
+            android:padding="15dp"
+            android:inputType="none"
+            android:textColor="@color/black"
+            android:textStyle="italic|bold"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:cursorVisible="false"
+            android:hint="Nombre del Corte" />
+
+        <!-- Precio del corte -->
+        <TextView
+            android:id="@+id/textViewPrecioCorteConfirmacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="14dp"
+            android:text="Precio del Corte:"
+            android:textColor="@color/azul_oscuro"
+            android:textStyle="italic|bold"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextPrecioCorte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            android:background="@drawable/edittext_border"
+            android:padding="15dp"
+            android:inputType="none"
+            android:textColor="@color/black"
+            android:textStyle="italic|bold"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:cursorVisible="false"
+            android:hint="Precio del Corte" />
+
+    </LinearLayout>
+
+    <!-- Botón de regresar -->
+    <Button
+        android:id="@+id/buttonRegresar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:textSize="24sp"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/white"
+        android:textStyle="italic|bold"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:background="@drawable/button_background"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
+
